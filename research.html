@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — FLaME Research Lab</title>
+  <link rel="icon" type="image/x-icon" href="images/flamenlp_logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="nav-container">
+      <div class="logo"><a href="index.html"><img src="images/flamenlp_logo.png" alt="FLaME Logo"></a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-toggle"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+</header>
+
+<!-- PAGE HEADER -->
+<div class="page-hero">
+  <div class="kicker">Research Focus</div>
+  <h1>Our <em>Research</em></h1>
+  <p>At FLaME Research Lab, our work is driven by the belief that language technology can transform the way we interact with the world. We span multiple high-impact domains of NLP.</p>
+</div>
+<hr class="page-divider">
+
+<!-- INTRO -->
+<div class="research-intro">
+  <div class="research-intro-inner">
+    <p>Our research covers <strong>Mental Health, Fake News, Claims, Propaganda, and Deception</strong> where we apply cutting-edge NLP techniques to address complex challenges. Our projects push the boundaries of theoretical understanding while offering practical solutions to real-world problems.</p>
+    <p>In each project, we strive to combine rigorous research methodologies with innovative approaches, ensuring that our contributions are both impactful and relevant. We take pride in sharing our findings with the broader NLP and AI community.</p>
+  </div>
+</div>
+
+<!-- RESEARCH CARDS -->
+<div class="section">
+  <div class="research-areas-grid reveal">
+
+    <div class="ra-card" data-research="asr">
+      <span class="ra-icon"><i class="fas fa-robot" style="color:var(--fire)"></i></span>
+      <div class="ra-title">Automatic Speech Recognition</div>
+      <p class="ra-short">Improving state-of-the-art ASR systems for code-mixed and low-resource Indian languages.</p>
+      <div class="ra-tags"><span class="ra-tag">Interspeech</span><span class="ra-tag">LREC</span><span class="ra-tag">Code-Mixed</span></div>
+    </div>
+
+    <div class="ra-card" data-research="healthcare">
+      <span class="ra-icon"><i class="fas fa-heartbeat" style="color:var(--fire)"></i></span>
+      <div class="ra-title">Healthcare</div>
+      <p class="ra-short">AI-driven models for mental health counseling and learning disorders — bridging NLP and clinical practice.</p>
+      <div class="ra-tags"><span class="ra-tag">EMNLP</span><span class="ra-tag">WWW</span><span class="ra-tag">PLOS ONE</span></div>
+    </div>
+
+    <div class="ra-card" data-research="xai">
+      <span class="ra-icon"><i class="fas fa-code-branch" style="color:var(--fire)"></i></span>
+      <div class="ra-title">Explainable AI</div>
+      <p class="ra-short">Using knowledge graphs and LLMs to explain social biases, hate speech, and sarcasm in interpretable NLP.</p>
+      <div class="ra-tags"><span class="ra-tag">AAAI</span><span class="ra-tag">ACL</span><span class="ra-tag">Knowledge Graphs</span></div>
+    </div>
+
+    <div class="ra-card" data-research="infodisorder">
+      <span class="ra-icon"><i class="fas fa-project-diagram" style="color:var(--fire)"></i></span>
+      <div class="ra-title">Information Disorder</div>
+      <p class="ra-short">Advanced models to identify and mitigate fake news, misinformation, propaganda, and hate speech on social platforms.</p>
+      <div class="ra-tags"><span class="ra-tag">ACL</span><span class="ra-tag">NAACL</span><span class="ra-tag">TheWebConf</span></div>
+    </div>
+
+    <div class="ra-card" data-research="coild">
+      <span class="ra-icon"><i class="fas fa-language" style="color:var(--fire)"></i></span>
+      <div class="ra-title">COIL-D</div>
+      <p class="ra-short">In collaboration with Bhasini — promoting language resources for HLT including Machine Translation leaderboards and benchmarks.</p>
+      <div class="ra-tags"><span class="ra-tag">Bhasini</span><span class="ra-tag">Machine Translation</span><span class="ra-tag">HLT</span></div>
+    </div>
+
+  </div>
+
+  <!-- Detail panels -->
+  <div id="asr-detail" class="ra-detail">
+    <h3 style="font-family:var(--serif);font-size:22px;margin-bottom:12px">Automatic Speech Recognition</h3>
+    <p>The goal is to improve the existing state-of-the-art ASR systems or propose a new model for automatic speech recognition for code-mixed languages. We work on cross-lingual transfer learning, data augmentation, and neural architectures specifically designed to handle the phonological and lexical challenges of languages like Hindi-English (Hinglish). Our work addresses a critical gap in speech technology for South Asian multilingual speakers.</p>
+  </div>
+
+  <div id="healthcare-detail" class="ra-detail">
+    <h3 style="font-family:var(--serif);font-size:22px;margin-bottom:12px">Healthcare &amp; Mental Health AI</h3>
+    <p>We develop AI-driven models for healthcare — specifically for mental health counseling and learning disorders. Our systems analyze peer support conversations in online mental health communities, identify behavioral traits that foster engagement, and generate supportive responses. Projects like the EMNLP 2024 counseling summarization work demonstrate how LLMs can be guided by domain knowledge to produce clinically relevant outputs.</p>
+  </div>
+
+  <div id="xai-detail" class="ra-detail">
+    <h3 style="font-family:var(--serif);font-size:22px;margin-bottom:12px">Explainable AI</h3>
+    <p>The goal is to use knowledge graphs and LLMs for explaining social biases, hate speech, sarcasm, and other complex linguistic phenomena. Rather than treating NLP models as black boxes, we build systems that produce human-interpretable explanations alongside their predictions. Our work on HateXplain and sarcasm explanation generation are key contributions in this space.</p>
+  </div>
+
+  <div id="infodisorder-detail" class="ra-detail">
+    <h3 style="font-family:var(--serif);font-size:22px;margin-bottom:12px">Information Disorder</h3>
+    <p>This project is dedicated to developing advanced models for identifying and mitigating harmful content on social media platforms. We focus on combating the spread of fake news, misinformation, propaganda, and hate speech. Our approaches include multimodal learning (text + image), commonsense knowledge injection, and cross-lingual transfer to build robust detectors that work across languages and platforms.</p>
+  </div>
+
+  <div id="coild-detail" class="ra-detail">
+    <h3 style="font-family:var(--serif);font-size:22px;margin-bottom:12px">COIL-D (in collaboration with Bhasini)</h3>
+    <p>The project COIL-D is in collaboration with Bhasini which aims at: promoting the creation of language resources for Human Language Technology (HLT) applications, especially for Machine Translation; creating leaderboards for Machine Translation evaluation; and establishing benchmark setups for various linguistic tools. This work directly supports the Bhasini initiative to advance language technology for Indian languages.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand"><em>FL</em>aME Lab</div>
+    <div class="footer-copy">© FLaME Research Lab 2025 &nbsp;·&nbsp; IIIT Delhi, Okhla Phase III, New Delhi 110020</div>
+    <div class="footer-social">
+      <a href="https://x.com/flamenlp" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/company/flamenlp/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/flamenlp" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://scholar.google.co.in/citations?user=KUcO6LAAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+    </div>
+  </div>
+</footer>
+<button id="scrollTop"><i class="fas fa-arrow-up"></i></button>
+<script src="main.js"></script>
+</body>
+</html>

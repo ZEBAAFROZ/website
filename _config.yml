@@ -1,0 +1,29 @@
+title: "FLaME Research Lab"
+description: "Frontier in Language Understanding and Neural Modeling — NLP Research Lab at IIIT Delhi"
+url: "https://ZEBAAFROZ.github.io"
+baseurl: "/website"
+
+# Author
+author:
+  name: "FLaME Lab"
+  email: "flame-lab@iiitd.ac.in"
+
+# Build settings
+markdown: kramdown
+theme: null  # No theme — we use our own CSS
+
+# Exclude files Jekyll shouldn't publish
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+
+# Include hidden files like .nojekyll if needed
+include:
+  - _pages
+
+# Plugins (GitHub Pages safe list)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
